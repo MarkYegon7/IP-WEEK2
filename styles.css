@@ -1,0 +1,40 @@
+#main {
+    height: 100%;
+    width:100%;
+    background-image:url("./images/sunset.jpeg");
+    background-position: centre;
+    background-size: cover;
+    position: absolute;
+}
+
+#inputs {
+    
+    width: 30rem;
+    height:34rem;
+    box-shadow: 10px 10px 15px coral;
+    position: relative;
+    margin: 6% auto;
+    border-radius:1rem;
+    font-weight:bolder;
+    background-color:mediumpurple;
+    padding:8px;
+    color:white;
+    text-align: center;
+    border-spacing: 10;
+}
+input{
+    font-weight:bolder;
+    background-color: skyblue;
+    color:maroon;
+    border: none;
+    margin: 10px;
+    padding:10px;
+    box-shadow:4px 4px 10px white;
+    border-radius:9px;
+}
+.input.button{
+    background: none;
+    color: brown;
+    transition: 1s;
+}
+
